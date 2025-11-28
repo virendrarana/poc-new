@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../universal_experience_module/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../universal_experience_module/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../universal_experience_module/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../universal_experience_module/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  FlutterPluginRegistrant: 1bf2b93dcc6a731089dfe77f7a867be153c5008f
+
+PODFILE CHECKSUM: f3989e7b1643387cd95ead8b79ddd3d6fe8d5095
+
+COCOAPODS: 1.16.2

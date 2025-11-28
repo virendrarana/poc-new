@@ -1,0 +1,17 @@
+platform :ios, '13.0'
+
+# Path from iOS host app to your Flutter module
+flutter_application_path = '../universal_experience_module'
+require_relative File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+target 'ios_host_app' do   # <-- CHANGE to your app target name from Xcode
+  use_frameworks!
+  use_modular_headers!
+
+  # Install Flutter engine + your module + any plugins
+  install_all_flutter_pods(flutter_application_path)
+end
+
+post_install do |installer|
+  flutter_post_install(installer)
+end
